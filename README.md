@@ -48,11 +48,9 @@
 1. Install Python 3 if you don't have it.
 2. Install dependencies:
    pip install pyserial matplotlib numpy
-3. Open logic_analyzer_gui.py and set the correct COM port:
-   PORT = 'COM3'          # Windows
-   # PORT = '/dev/ttyUSB0'  # Linux / macOS
-4. Run the script:
-   python logic_analyzer_gui.py
+3. Open logic_analyzer_gui.py and set COM port and baudrate.
+4. Run the script.
+
 
 ## How It Works
 
