@@ -6,7 +6,7 @@
 
 - **8 digital channels** for signal analysis.
 - **1 KHz sampling rate** (configurable).
-- **Button** to start/stop capture on PB0.
+- **Button** to start/stop capture on PA0.
 - **RLE compression** — reduces transmitted data by up to 1000x for long idle periods.
 - **Python visualization** — pyserial GUI for displaying all 8 channels.
 
