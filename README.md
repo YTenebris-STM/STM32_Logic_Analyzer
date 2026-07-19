@@ -45,11 +45,7 @@
 4. Flash the resulting .hex or .bin file using ST-Link, USB-UART, or another programmer.
 
 ### 2. Python Setup
-1. Install Python 3 if you don't have it.
-2. Install dependencies:
-   pip install pyserial matplotlib numpy
-3. Open logic_analyzer_gui.py and set COM port and baudrate.
-4. Run the script.
+You can use tool "port-to-file" to save data in file.
 
 
 ## How It Works
