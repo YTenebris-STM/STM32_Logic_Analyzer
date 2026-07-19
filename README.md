@@ -49,10 +49,10 @@ You can use tools to process data:
 1. **port-to-file.py** allows you to save data from a port to a file. Connect the device to the port, run this script and select the port and baudrate in the terminal. Then, pressing the button will start data capture and cause the LED to flash.
 
 Console output:
-<img width="760" height="284" alt="image" src="https://github.com/user-attachments/assets/cb4a2af4-717c-4e79-9a7a-f770200cccff" />
+<img width="250" height="100" alt="image" src="https://github.com/user-attachments/assets/cb4a2af4-717c-4e79-9a7a-f770200cccff" />
 
 File:
-<img width="98" height="346" alt="image" src="https://github.com/user-attachments/assets/685d8a2f-aa8b-4342-bae8-b0ad79153024" />
+<img width="40" height="100" alt="image" src="https://github.com/user-attachments/assets/685d8a2f-aa8b-4342-bae8-b0ad79153024" />
 
 2. **file-to-chart** plots a chart from your data, which was written to a file by the previous script.
 Output:
