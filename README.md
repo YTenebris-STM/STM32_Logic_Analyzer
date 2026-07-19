@@ -10,7 +10,7 @@
 - **RLE compression** — reduces transmitted data by up to 1000x for long idle periods.
 - **Python visualization** — pyserial GUI for displaying all 8 channels.
 
-## 🛠 Technologies
+## Technologies
 
 - **MCU:** STM32F103C8T6 (Cortex-M3)
 - **IDE:** Keil uVision / STM32CubeIDE / any GCC ARM toolchain
@@ -36,7 +36,7 @@
 
 > **Important:** All inputs are **3.3V tolerant only**. For 5V logic signals, use a voltage divider or level shifter.
 
-## ⚙️ Build & Run
+## Build & Run
 
 ### 1. Build the Firmware
 1. Open the project in your IDE (Keil, STM32CubeIDE, or use the Makefile).
@@ -54,7 +54,7 @@
 4. Run the script:
    python logic_analyzer_gui.py
 
-## 📊 How It Works
+## How It Works
 
 1. **Clock:** External 8 MHz crystal is multiplied via PLL to 72 MHz.
 2. **Data capture:** Timer TIM2 generates 1 KHz ticks. On each tick, DMA (circular mode) copies data from GPIOA to the buffer.
@@ -65,11 +65,11 @@
 7. **Visualization:** Python sends data to data.log file.
 
 
-## 📄 License
+## License
 
 This project is distributed under the MIT License. See the LICENSE file for details.
 
-## 👤 Author
+## Author
 
 **Yurii Ambartsumyan**
 GitHub: https://github.com/YTenebris-STM
