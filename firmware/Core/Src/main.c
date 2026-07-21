@@ -119,7 +119,7 @@ void INIT_USART1 (void) // Initialization USART1
 
 void INIT_GPIO (void) // Initialization GPIO
 {
-	// pins A0-A7 floating input
+	// pins A0-A7 input pull-up/pull-down
 	RCC->APB2ENR |= RCC_APB2ENR_IOPAEN;
 	GPIOA->CRL = 0x88888888;
 
